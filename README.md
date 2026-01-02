@@ -122,20 +122,3 @@ spring:
       port: 6379
       password: admin123
 ```
-
----
-
-## Volume & dữ liệu
-
-### Docker volume
-
-* MongoDB data: `mongo_data`
-* Redis data: `redis_data`
-
-Docker tự tạo và quản lý volumes, dữ liệu **không mất** khi restart container.
-
-Kiểm tra:
-
-```bash
-docker volume ls
-```"# PingMe-Infrastructure" 
